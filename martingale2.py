@@ -15,7 +15,7 @@ def chance_of_winning():
     plt.show()
 
 def regular_log(x):
-    return 1-(0.9)**x
+    return x**-0.9
 
 if __name__ == "__main__":
     x = np.linspace(1,100)
