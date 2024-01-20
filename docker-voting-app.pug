@@ -2,3 +2,12 @@ ul
     li: a(href="https://github.com/dockersamples/example-voting-app") Example Voting App
 
     li I started up the docker containers. However, now I want to exit the containers, but they keep restarting. How to close them?
+
+    li I wanted to experiment and learn more about docker. I ended up downloading 
+    a(href="https://github.com/dockersamples/example-voting-app") ExampleVoting
+    li and ended up running this command called "docker swarm". Apparently it has these resiliency measures where if you close down a docker container, it will keep restarting it.
+    li I ended up giving up on trying to close it down, because it kept just reopening every single time that I closed it. 
+    li However, this link gave me a list of swarm commands 
+    a(href="https://docs.docker.com/engine/swarm/") DockerSwarm
+    li And it said if I do "docker swarm rm" Then it removes the service, and it will officially remove it, rather than just stopping docker container and having it boot up again.
+    li Good to know, if I docker swarm init, I have to docker swarm rm to stop the containers. This is a way to stop against unintended containers crashing 
