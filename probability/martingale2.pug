@@ -18,16 +18,16 @@ ul
     li But where does the dollars gained go into this process? I have only assumed that the game "ends" when I gain one dollar. In order to win multiple dollars, I must repeat the process
     li Pw = (1 - (60%)^(log2(Dr)+1)^Dg
     li Going to make a python script with that equation 
-    a(href="martingale2.py") PythonScript 
+    a(href="/scripts/martingale2.py") PythonScript 
     li Let's plot this! But how do we choose to graph it? I don't currently know how to plot in 3D, so I will have the dollars_risked stay constant. Let's keep it at 128
-    img(src="probability_winning.png")
+    img(src="/images/probability_winning.png")
     li So now we have our graph. It looks like if we want an 80% chance of winning, we will win a little less than 20 dollars, which makes sense in terms of expected value. The percentage that you are certain is balanced out by how little you actually gain.
     li So this is the reality, but what is my expectation?? I know that I personally like to risk a little more if it can spell better amount, but when does it start decreasing??
     li In my mind I think of something like this:
-    img(src="my_risk.png")
+    img(src="/images/my_risk.png")
     li This is what I imagine my risk to look like. I'm slowly willing to decrease my risk percentage as I win more money, but not too much. I just picked a random negative exponential function until it looked comfortable with what I would hypothetically bet
     li Looks good to me, I mean I feel good about this risk graph, so it's fine 
     li Let's figure out where this overlaps
     li I created a graph, and...it looks like the optimal amount I can gain is 0 dollars..with a 100% probability.
-    img(src="optimal_bet.png")
+    img(src="/images/optimal_bet.png")
     li Every other type of bet is too risky for me and the curve dips way lower than I want to. The only way to win this bet is to not bet at all..
