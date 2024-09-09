@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/taipnguyen.github.io/static/css/main.a2938dea.css",
+    "main.js": "/taipnguyen.github.io/static/js/main.cd7abf2f.js",
+    "static/media/suit.png": "/taipnguyen.github.io/static/media/suit.0b523641f7d7ee985eef.png",
+    "static/media/logo.svg": "/taipnguyen.github.io/static/media/logo.a32d4107bff6b2009d116695bc7ee374.svg",
+    "index.html": "/taipnguyen.github.io/index.html",
+    "static/media/close.svg": "/taipnguyen.github.io/static/media/close.a591c5268e7cbcfeb569c6afea5745fc.svg",
+    "static/media/open.svg": "/taipnguyen.github.io/static/media/open.e6bd41ec79183186fdb132e92b58c1de.svg",
+    "main.a2938dea.css.map": "/taipnguyen.github.io/static/css/main.a2938dea.css.map",
+    "main.cd7abf2f.js.map": "/taipnguyen.github.io/static/js/main.cd7abf2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2938dea.css",
+    "static/js/main.cd7abf2f.js"
+  ]
+}
