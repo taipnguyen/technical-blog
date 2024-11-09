@@ -6,14 +6,8 @@ nav {
     color: purple;
 }
 
-#TableOfContents {
-    background-color: beige;
-    text-align: left
-
-}
-
-li {
-    margin-left: 30%;
+.title {
+    text-align: center;
 }
 
 
