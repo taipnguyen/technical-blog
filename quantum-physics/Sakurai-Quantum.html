@@ -43,13 +43,21 @@
         These row vectors go by the name of bras. Interestingly enough, if you put these 
         words together, you get the name bra-ket. BRA-KET. Bracket... Clever, clever physicists..
     </li>
-    <li> Compatible observables (operators) happen when they can both 
-        act on the same ket and not destroy it like a lunatic. 
-        They still preserve it and keep it as an eigenket. 
-        If one can potentially destroy the other, they are incompatible 
-        observables. Like position and momentum. They are like Jinx and Vi.
-        Jinx is the momentum. Vi is the position. Woww</li>
-    <li> You can transform kets just like you can transform column vectors with matrices. These transformations can allow you to change the basis of your space. Just like how basis vectors change the vector space you work with (not really, please kick me if I'm innacurate). You can use a transformation operator to change the Hilbert space that you work with</li>
-    <li> Diagonalization is a word. You want to make a matrix easy to work with? <a href="https://en.wikipedia.org/wiki/Diagonalizable_matrix#How_to_diagonalize_a_matrix">Diagonalize </a>it into it's eigenkets and eigenvalues by taking det(A-lambda*I) </li>
-    <li> Wave functions are a representation of a particle under a certain observable. If you "nail" down a particle to a certain position space, it will cave and give you its wave function. If you have a function that doesn't fundamentally change itself when acted upon by an operator (like sine) then you have an eigenfunction </li>
+    <li> Some operators have certain relationships with each other.
+         Specifically, if two operators can be applied one after the other 
+         without completely destroying the ket, then the operators are considered 
+         compatible. However, if one operator gets applied to a ket, and then another operator,
+         resulting in the ket getting destroyed. Then the operators are incompatible.
+    </li>
+    <li>
+        If a matrix acts on a vector and it doesn't fundamentally change, 
+        it just gets stretched or shrunk, the vector is called the eigenvector
+        of the matrix. If a quantum matrix acts on a ket and it doesn't fundamentally 
+        change, it just gets stretched or shrunk. the ket is called an eigenket.
+        Similarly, if an operator acts on a function and it just stretches or 
+        shrinks, it is called an eigenfunction of the operator. Often, these are just the 
+        same names for the same idea. When you apply a transformation, you don't get anything
+        too different. In these rare situations, you can receive interesting information 
+        from the amount that it stretches or shrinks. 
+    </li>
 </ul>
