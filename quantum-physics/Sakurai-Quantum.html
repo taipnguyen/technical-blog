@@ -1,67 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title> Physics </title>
-    <link rel="stylesheet" href="../styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakurai Quantum</title>
 </head>
-<ul>
-    <li> Everything starts with the 
-        <a href="https://en.wikipedia.org/wiki/Stern%E2%80%93Gerlach_experiment">
-            Stern-Gerlach experiment
-        </a>. 
-        A silver atom shoots through a magnet and it either lands 
-        on one side or the other side of glass pane. 
-        This single experiment brings up the concept of quantum spin and is, 
-        in my opinion, the single most important experiment that contributes
-        to the weirdness of Quantum Mechanics. If this experiment didn't exist,
-        Schrodinger's cat, quantum entanglement, and quantum computers wouldn't exist.
-      </li>
-    <li> A quantum state is represented by this thing called a ket.
-        A lot of the times, kets can only either be an up ket or a down ket.
-        Kets by themselves don't really have any physical meaning, 
-        but their meaning can be understood by transforming it with these tools called operators: 
-        position operators, momentum operators, and probability operators. 
-    </li>
-    <li>
-        Operators are essentially transformers for functions like f(x) = sin(x). Operators
-        can be really simple and turn a function into f(x) = 0 for example. 
-        However, they can also be really complicated and turn a function into 
-        f(x) = p^2 * sin(x) / 2m, just to give an example. 
-    </li>
-    <li>
-        Oftentimes, because operators are so complicated when applied to functions, 
-        physicists will forget the fact that functions are functions and just call them 
-        vectors. A common example of this is calling f(x) = sin(x) [1, 0] and calling
-        g(x) = cos(x) [0, 1]. This has the same meaning, because these two functions' 
-        relationsips have the same relationships as these two vectors. They are both
-        perpendicular to each other at all points. And now that we can reduce complicated
-        functions to simple vectors, we can reduce the complicated operators into simple
-        matrices. 
-    </li>
-    <li>
-        Sometimes, not all the time, when you apply a transformation to something,
-        you can get the same thing, but just stretched or shrunk. In linear algebra,
-        this is called eigenvector. In quantum mechanics, this is called eigenkets.
-    </li>
-    <li> 
-        Kets are often represented as column vectors, this is so that we
-        can conveniently have row vectors that can be multiplie with these column vectors.
-        These row vectors go by the name of bras. Interestingly enough, if you put these 
-        words together, you get the name bra-ket. BRA-KET. Bracket... Clever, clever physicists..
-    </li>
-    <li> Some operators have certain relationships with each other.
-         Specifically, if two operators can be applied one after the other 
-         without completely destroying the ket, then the operators are considered 
-         compatible. However, if one operator gets applied to a ket, and then another operator,
-         resulting in the ket getting destroyed. Then the operators are incompatible.
-    </li>
-    <li>
-        If a matrix acts on a vector and it doesn't fundamentally change, 
-        it just gets stretched or shrunk, the vector is called the eigenvector
-        of the matrix. If a quantum matrix acts on a ket and it doesn't fundamentally 
-        change, it just gets stretched or shrunk. the ket is called an eigenket.
-        Similarly, if an operator acts on a function and it just stretches or 
-        shrinks, it is called an eigenfunction of the operator. Often, these are just the 
-        same names for the same idea. When you apply a transformation, you don't get anything
-        too different. In these rare situations, you can receive interesting information 
-        from the amount that it stretches or shrinks. 
-    </li>
-</ul>
+<body>
+    <ul class="breadcrumb">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../physics.html">Physics</a></li>
+        <li><a href="quantum-physics.html">Quantum Physics</a></li>
+        <li>Sakurai Quantum</li>
+    </ul> 
+    <ul>
+        <li> Everything starts with the 
+            <a href="https://en.wikipedia.org/wiki/Stern%E2%80%93Gerlach_experiment">
+                Stern-Gerlach experiment
+            </a>. 
+            A silver atom shoots through a magnet and it either lands 
+            on one side or the other side of glass pane. 
+            This single experiment brings up the concept of quantum spin and is, 
+            in my opinion, the single most important experiment that contributes
+            to the weirdness of Quantum Mechanics. If this experiment didn't exist,
+            Schrodinger's cat, quantum entanglement, and quantum computers wouldn't exist.
+          </li>
+        <li> A quantum state is represented by this thing called a ket.
+            A lot of the times, kets can only either be an up ket or a down ket.
+            Kets by themselves don't really have any physical meaning, 
+            but their meaning can be understood by transforming it with these tools called operators: 
+            position operators, momentum operators, and probability operators. 
+        </li>
+        <li>
+            Operators are essentially transformers for functions like f(x) = sin(x). Operators
+            can be really simple and turn a function into f(x) = 0 for example. 
+            However, they can also be really complicated and turn a function into 
+            f(x) = p^2 * sin(x) / 2m, just to give an example. 
+        </li>
+        <li>
+            Oftentimes, because operators are so complicated when applied to functions, 
+            physicists will forget the fact that functions are functions and just call them 
+            vectors. A common example of this is calling f(x) = sin(x) [1, 0] and calling
+            g(x) = cos(x) [0, 1]. This has the same meaning, because these two functions' 
+            relationsips have the same relationships as these two vectors. They are both
+            perpendicular to each other at all points. And now that we can reduce complicated
+            functions to simple vectors, we can reduce the complicated operators into simple
+            matrices. 
+        </li>
+        <li>
+            Sometimes, not all the time, when you apply a transformation to something,
+            you can get the same thing, but just stretched or shrunk. In linear algebra,
+            this is called eigenvector. In quantum mechanics, this is called eigenkets.
+        </li>
+        <li> 
+            Kets are often represented as column vectors, this is so that we
+            can conveniently have row vectors that can be multiplie with these column vectors.
+            These row vectors go by the name of bras. Interestingly enough, if you put these 
+            words together, you get the name bra-ket. BRA-KET. Bracket... Clever, clever physicists..
+        </li>
+        <li> Some operators have certain relationships with each other.
+             Specifically, if two operators can be applied one after the other 
+             without completely destroying the ket, then the operators are considered 
+             compatible. However, if one operator gets applied to a ket, and then another operator,
+             resulting in the ket getting destroyed. Then the operators are incompatible.
+        </li>
+        <li>
+            If a matrix acts on a vector and it doesn't fundamentally change, 
+            it just gets stretched or shrunk, the vector is called the eigenvector
+            of the matrix. If a quantum matrix acts on a ket and it doesn't fundamentally 
+            change, it just gets stretched or shrunk. the ket is called an eigenket.
+            Similarly, if an operator acts on a function and it just stretches or 
+            shrinks, it is called an eigenfunction of the operator. Often, these are just the 
+            same names for the same idea. When you apply a transformation, you don't get anything
+            too different. In these rare situations, you can receive interesting information 
+            from the amount that it stretches or shrinks. 
+        </li>
+    </ul> 
+</body>
+</html>
+
